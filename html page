@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+	<link rel="stylesheet" href="styles.css">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Product Landing Page - freecodecamp</title>
+</head>
+
+<body>
+  <header id="header">
+    <nav id="nav-bar">
+      <img id="header-img" src="https://www.logolynx.com/images/logolynx/33/338649514c6515273aca1690b2434934.png" alt="logo" class="logo">
+      <ul>
+        <a class="nav-link" href="#features">Features</a>
+        <a class="nav-link" href="#how-it-work">How It Works</a>
+        <a class="nav-link" href="#pricing">Pricing</a>
+      </ul>
+    </nav>
+  </header>
+
+  <div id="container">
+    <section class="message-box">
+      <h1>Everything is fake.</h1>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <input id="email" type="email" name="email" placeholder="example@mail.com">
+      <input id="submit" type="submit" value="Make an order for a fake" class="btn"></input>
+      </form>
+    </section>
+
+    <section id="features">
+      <div class="feature">
+        <i class="fab fa-free-code-camp fa-3x"></i>
+        <div>
+          <h2>Materials</h2>
+          <p>All of our fake items are made of fake materials</p>
+        </div>
+      </div>
+      <div class="feature">
+        <i class="fas fa-shipping-fast fa-3x"></i>
+        <div>
+          <h2>Shipping</h2>
+          <p>We do ship.</p>
+        </div>
+      </div>
+      <div class="feature">
+        <i class="fas fa-battery-full fa-3x"></i>
+        <div>
+          <h2>Quality</h2>
+          <p>Our fake items will arrive in the quality they arrive in.</p>
+        </div>
+      </div>
+    </section>
+    <section id="how-it-work">
+      <iframe id="video" src="https://www.youtube.com/watch?v=T4r91mc8pbo&t=42s"></iframe>
+    </section>
+    <section id="pricing">
+      <div class="price-box">
+        <h3>Fake 1</h3>
+        <h2>$0</h2>
+        <p>Poopedy scoppity poopy Poopedy scoppity poopy.</p>
+        <a href="#" class="btn">SELECT</a>
+      </div>
+      <div class="price-box">
+        <h3>Fake 2</h3>
+        <h2>$0</h2>
+        <p>Poopedy scoppity poopy Poopedy scoppity poopy.</p>
+        <a href="#" class="btn">SELECT</a>
+      </div>
+      <div class="price-box">
+        <h3>Fake 3</h3>
+        <h2>$0</h2>
+        <p>Poopedy scoppity poopy Poopedy scoppity poopy.</p>
+        <a href="#" class="btn">SELECT</a>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
